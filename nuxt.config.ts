@@ -94,6 +94,10 @@ export default defineNuxtConfig({
         iso: 'ru-RU'
       },
       {
+        code: 'ta',
+        iso: 'ta-TA'
+      },
+      {
         code: 'th',
         iso: 'th-TH'
       },

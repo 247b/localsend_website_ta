@@ -12,6 +12,7 @@ import pl from './lang/pl.json'
 import ptBr from './lang/pt-BR.json'
 import ptPT from './lang/pt-PT.json'
 import ru from './lang/ru.json'
+import ta from './lang/ta.json'
 import th from './lang/th.json'
 import tr from './lang/tr.json'
 import uk from './lang/uk.json'
@@ -35,6 +36,7 @@ export const localeMap: { [k: string] : string } = {
   'pl': 'Polski',
   'pt-BR': 'Português - Brasil',
   'pt-PT': 'Português - Portugal',
+  'ta':'தமிழ்',
   'th': 'ภาษาไทย',
   'tr': 'Türkçe',
   'uk': 'Українська',
@@ -63,6 +65,7 @@ export default defineI18nConfig(() => ({
     'pt-BR': ptBr,
     'pt-PT': ptPT,
     ru,
+    ta,
     th,
     tr,
     uk,
